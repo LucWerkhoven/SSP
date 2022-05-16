@@ -1,2 +1,2 @@
 # SSP
-Project for Infrastructure As Code, Windesheim 2022. 
+A Self Service Portal, uses Ansible and Vagrant to deploy various kind of VMs. 
