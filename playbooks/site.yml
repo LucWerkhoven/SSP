@@ -1,0 +1,29 @@
+---
+- name: SSH keyscan
+  hosts: all
+  gather_facts: no
+  connection: local
+- hosts: all
+  become: yes
+  tasks:
+    - name: install updates
+      package:
+        update_cache: yes
+        upgrade: dist
+
+- hosts: databaseservers
+  become: yes
+  roles:
+    - role: databaseserver
+      become: yes
+
+- hosts: webservers
+  become: yes
+  roles:
+    - webserver
+
+- hosts: loadbalancers
+  become: yes
+  roles:
+    - loadbalancer
+...

@@ -1,0 +1,16 @@
+Uit de video moet blijken, dat het om een eigen omgeving (skylab of lokale omgeving op eigen computer of omgeving van organisatie waar student werkzaam is) gaat en dat de student zelf de werkzaamheden heeft uitgevoerd. 
+
+Hierbij moet de studentnummer duidelijk herkenbaar zijn. De volgende onderdelen moeten met toelichting ook werkend terugkomen in de video:
+
+• Selfservice-portal: script-gebaseerd of grafisch (b.v. bash-script, python of PHP script of GUI)
+• Configuration Management (b.v. het aanpassen van het geheugen van een systeem via het selfservice-portal)
+• Multi-tenant (scheiding van klantomgevingen)
+• Resource management (b.v. upscaling webservers)
+• Workflow management (onderscheid op basis van rollen, b.v. web-, db-servers en load balancers)
+• Beveiliging van de klantomgeving (public en private keys per omgeving, eigen authenticatie per klant)
+
+Productieomgeving
+2x webserver (b.v. Apache of Nginx)
+1x loadbalancer (b.v. haproxy)
+1x database server (b.v. MySQL, MariaDB)
+

@@ -1,0 +1,6 @@
+[mysqld]
+!includedir /etc/mysql/conf.d/
+!includedir /etc/mysql/mysql.conf.d/
+
+port = {{ mysql_port }}
+bind-address = {{ mysql_bind_address }}
