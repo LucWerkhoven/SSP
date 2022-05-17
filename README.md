@@ -1,5 +1,5 @@
 # SSP
-A Self Service Portal, uses Ansible and Vagrant to deploy various kind of VMs. 
+A Self Service Portal, uses Ansible and Vagrant to deploy various kinds of VMs. 
 
 Requirements:
 - Virtualbox v6.1
